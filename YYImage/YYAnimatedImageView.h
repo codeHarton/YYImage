@@ -79,7 +79,8 @@ NS_ASSUME_NONNULL_BEGIN
  immediately, and may grow back at the right time.
  */
 @property (nonatomic) NSUInteger maxBufferSize;
-
+///视图可见时候
+- (void)didMoved;
 @end
 
 
